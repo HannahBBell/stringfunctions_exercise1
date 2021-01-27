@@ -1,6 +1,12 @@
 def capitalise_string(s):
     return s.upper()
 
+def decapitalise_string(st):
+    return st.lower()
+
+def first_letter_capitalisation(word):
+    return word.title()
+    
 def test_capitalise_string():
     assert capitalise_string("hello") == "hello".upper()
 
@@ -10,8 +16,8 @@ def test_capitalise_string():
 def test_capitalise_string():
     assert capitalise_string("hello world 2") == "hello world 2".upper()
 
-def decapitalise_string(st):
-    return st.lower()
-
 def test_decapitalise_string():
     assert decapitalise_string("HELLO, WORLD1") == "hello, world1"
+
+def test_first_letter_capitalisation():
+    assert test_first_letter_capitalisation("hello, world1") == 'Hello, World1'
