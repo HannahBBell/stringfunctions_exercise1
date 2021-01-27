@@ -6,3 +6,6 @@ def test_capitalise_string():
 
 def test_capitalise_string():
     assert capitalise_string("hello world") == "hello world".upper()
+
+def test_capitalise_string():
+    assert capitalise_string("hello world 2") == "hello world 2".upper()
