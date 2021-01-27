@@ -20,4 +20,4 @@ def test_decapitalise_string():
     assert decapitalise_string("HELLO, WORLD1") == "hello, world1"
 
 def test_first_letter_capitalisation():
-    assert test_first_letter_capitalisation("hello, world1") == 'Hello, World1'
+    assert first_letter_capitalisation("hello, world1") == 'Hello, World1'
